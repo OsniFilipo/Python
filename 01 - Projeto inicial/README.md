@@ -1,10 +1,9 @@
+<img src="https://www.freecodecamp.org/news/content/images/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg">
+
 # Primeiros Passos para Estudar Python
 
-Este repositório foi criado com o objetivo de fornecer orientações e recursos úteis para quem está iniciando seus estudos em Python. Aqui você encontrará informações essenciais e diretrizes para começar sua jornada de aprendizado de forma eficiente e organizada.
+Apresentar os conceitos fundamentais do "Olá, Mundo!", variáveis e operações aritméticas. Aqui, você encontrará exemplos práticos e explicações detalhadas para auxiliar no seu aprendizado da linguagem de programação Python.
 
-# Introdução ao "Olá, Mundo!", Variáveis e Operações Aritméticas
-
-Bem-vindo ao repositório de Python que tem como objetivo apresentar os conceitos fundamentais do "Olá, Mundo!", variáveis e operações aritméticas. Aqui, você encontrará exemplos práticos e explicações detalhadas para auxiliar no seu aprendizado da linguagem de programação Python.
 # "Olá, Mundo!"
 O famoso programa "Olá, Mundo!" é o ponto de partida perfeito para começar a programar em Python. Neste repositório, você aprenderá como criar um programa simples que exibirá a mensagem "Olá, Mundo!" no console. Vamos guiá-lo passo a passo, para que você possa entender cada linha de código e executar com sucesso seu primeiro programa Python.
 
