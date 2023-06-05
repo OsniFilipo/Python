@@ -103,13 +103,107 @@ print(x)                # Imprime o novo valor de x ("Olá")
 
 
 ```
+
 Outro exemplo pode ser visto no [variaveis.py](https://github.com/OsniFilipo/Python/blob/main/01%20-%20Projeto%20inicial/variaveis.py)
 
 As variáveis em Python são uma maneira flexível e poderosa de armazenar e manipular dados em seu programa. Elas permitem que você trabalhe com diferentes tipos de dados e realizem operações com eles. Use nomes descritivos para suas variáveis e lembre-se de atualizá-las conforme necessário durante a execução do seu programa.
+
 # Operações Aritméticas
-Python oferece uma ampla variedade de operações aritméticas para trabalhar com números. Neste repositório, você encontrará explicações e exemplos práticos sobre adição, subtração, multiplicação, divisão e exponenciação. Além disso, exploraremos o uso de operadores especiais, como módulo e divisão inteira.
+
+Python oferece uma ampla variedade de operações aritméticas para trabalhar com números. Neste repositório, você encontrará explicações e exemplos práticos sobre adição, subtração, multiplicação, divisão e exponenciação. Além disso, exploraremos o uso de operadores especiais, como módulo e divisão inteira.Existem várias operações disponíveis, e cada uma delas tem um símbolo ou função específica associada. Aqui estão as principais operações aritméticas em Python:
+
+1. Adição (+): A operação de adição é representada pelo símbolo de mais (+). Ela é usada para somar dois valores.
+
+Exemplo:
+
+```
+
+  x = 5 + 3
+  print(x)  # Saída: 8
+
+```
+
+2. Subtração (-): A operação de subtração é representada pelo símbolo de menos (-). Ela é usada para subtrair um valor de outro.
+
+Exemplo:
+
+
+```
+
+  x = 10 - 4
+  print(x)  # Saída: 6
+
+```
+
+3. Multiplicação (): A operação de multiplicação é representada pelo símbolo de asterisco (). Ela é usada para multiplicar dois valores.
+
+Exemplo:
+
+```
+
+  x = 3 * 4
+  print(x)  # Saída: 12
+
+
+```
+
+4. Divisão (/): A operação de divisão é representada pelo símbolo de barra (/). Ela é usada para dividir um valor por outro. O resultado da divisão é sempre um número de ponto flutuante.
+
+Exemplo:
+
+```
+
+  x = 10 / 3
+  print(x)  # Saída: 3.3333333333333335
+
+```
+
+5. Divisão inteira (//): A divisão inteira é representada pelo símbolo de duas barras (//). Ela retorna o quociente inteiro da divisão, descartando a parte decimal.
+
+Exemplo:
+
+```
+
+  x = 10 // 3
+  print(x)  # Saída: 3
+
+```
+
+6. Resto da divisão (%): O resto da divisão é representado pelo símbolo de porcentagem (%). Ele retorna o valor do resto após a divisão.
+
+Exemplo:
+
+```
+
+x = 10 % 3
+print(x)  # Saída: 1
+
+```
+
+7. Potenciação (): A operação de potenciação é representada pelo símbolo de dois asteriscos (). Ela eleva um valor à potência de outro valor.
+
+Exemplo:
+
+```
+
+  x = 2 ** 3
+  print(x)  # Saída: 8
+
+```
+
+8. Ordem de operações: Python segue a convenção matemática padrão para a ordem de operações. Isso significa que as operações dentro de parênteses são avaliadas primeiro, seguidas de potenciação, multiplicação e divisão (da esquerda para a direita), e, por fim, adição e subtração (da esquerda para a direita).
+
+Exemplo:
+
+```
+
+  x = (10 + 3) * 2
+  print(x)  # Saída: 26
+
+```
 
 # Exemplo de Código
+
 Para facilitar o seu aprendizado, forneceremos exemplos de código práticos em cada seção. Esses exemplos demonstrarão como aplicar os conceitos discutidos, permitindo que você veja o Python em ação. Sinta-se à vontade para experimentar, modificar e expandir esses exemplos para aprimorar sua compreensão e habilidades em Python.
 
 # Os comentários
@@ -157,7 +251,3 @@ Exemplo:
 5. Boas práticas ao usar comentários: Mantenha os comentários claros, concisos e relevantes. Eles devem explicar o código de forma eficaz e ajudar os leitores a entender a lógica por trás dele. Evite comentários óbvios ou desnecessários que não adicionem valor ao código. Além disso, os comentários devem ser atualizados junto com o código. À medida que você faz alterações no código, lembre-se de revisar e atualizar os comentários relevantes para garantir que eles permaneçam precisos e úteis.
 
 Os comentários são uma ferramenta valiosa para melhorar a legibilidade e a manutenção do seu código Python. Use-os sabiamente para fornecer informações claras e úteis, tornando seu código mais compreensível tanto para você quanto para outros programadores.
-
-
-
-
