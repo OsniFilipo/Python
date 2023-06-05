@@ -103,6 +103,7 @@ print(x)                # Imprime o novo valor de x ("Olá")
 
 
 ```
+Outro exemplo pode ser visto no [variaveis.py](https://github.com/OsniFilipo/Python/blob/main/01%20-%20Projeto%20inicial/variaveis.py)
 
 As variáveis em Python são uma maneira flexível e poderosa de armazenar e manipular dados em seu programa. Elas permitem que você trabalhe com diferentes tipos de dados e realizem operações com eles. Use nomes descritivos para suas variáveis e lembre-se de atualizá-las conforme necessário durante a execução do seu programa.
 # Operações Aritméticas
@@ -110,3 +111,53 @@ Python oferece uma ampla variedade de operações aritméticas para trabalhar co
 
 # Exemplo de Código
 Para facilitar o seu aprendizado, forneceremos exemplos de código práticos em cada seção. Esses exemplos demonstrarão como aplicar os conceitos discutidos, permitindo que você veja o Python em ação. Sinta-se à vontade para experimentar, modificar e expandir esses exemplos para aprimorar sua compreensão e habilidades em Python.
+
+# Os comentários
+
+Os comentários são uma parte importante da programação em Python. Eles são trechos de texto que não são executados pelo interpretador Python, servindo apenas como notas ou explicações para facilitar o entendimento do código pelos programadores. Os comentários fornecem informações adicionais sobre o que o código faz, sua lógica ou outras considerações importantes. Aqui estão alguns pontos-chave sobre os comentários em Python:
+
+1. Propósito dos comentários: Os comentários são usados para adicionar informações úteis ao código, tornando-o mais compreensível e facilitando sua manutenção. Eles ajudam outros programadores (ou até mesmo você mesmo, no futuro) a entender o que o código faz e como ele funciona.
+
+2. Sintaxe dos comentários: Em Python, os comentários são precedidos pelo caractere cerquilha (#). Qualquer texto após o # em uma linha é considerado um comentário e será ignorado pelo interpretador. Os comentários podem aparecer em uma linha separada ou após o código em uma mesma linha.
+
+Exemplo:
+
+```
+
+  # Este é um comentário em Python
+
+  print("Olá Mundo!")  # Este é outro comentário
+
+
+```
+
+3. Comentários de uma linha: Os comentários de uma linha são usados para adicionar breves explicações ou notas ao código. Eles são ideais para fornecer contexto sobre o que está acontecendo em uma linha específica.
+
+Exemplo:
+
+```
+
+  x = 10  # Atribuindo o valor 10 à variável x
+
+```
+4. Comentários de várias linhas: Os comentários de várias linhas são usados quando você precisa adicionar comentários extensos que abrangem várias linhas. Em Python, você pode criar um bloco de comentário usando três aspas simples (''') ou três aspas duplas (""").
+
+Exemplo:
+
+```
+
+  '''
+  Este é um comentário de várias linhas.
+  Ele pode abranger várias linhas de código e é usado
+  para fornecer explicações detalhadas ou documentação.
+  '''
+
+```
+
+5. Boas práticas ao usar comentários: Mantenha os comentários claros, concisos e relevantes. Eles devem explicar o código de forma eficaz e ajudar os leitores a entender a lógica por trás dele. Evite comentários óbvios ou desnecessários que não adicionem valor ao código. Além disso, os comentários devem ser atualizados junto com o código. À medida que você faz alterações no código, lembre-se de revisar e atualizar os comentários relevantes para garantir que eles permaneçam precisos e úteis.
+
+Os comentários são uma ferramenta valiosa para melhorar a legibilidade e a manutenção do seu código Python. Use-os sabiamente para fornecer informações claras e úteis, tornando seu código mais compreensível tanto para você quanto para outros programadores.
+
+
+
+
