@@ -101,12 +101,85 @@ print(x)                # Imprime o valor de x (5)
 x = "Olá"               # x agora é do tipo str
 print(x)                # Imprime o novo valor de x ("Olá")
 
-
 ```
 
 Outro exemplo pode ser visto no [variaveis.py](https://github.com/OsniFilipo/Python/blob/main/01%20-%20Projeto%20inicial/variaveis.py)
 
 As variáveis em Python são uma maneira flexível e poderosa de armazenar e manipular dados em seu programa. Elas permitem que você trabalhe com diferentes tipos de dados e realizem operações com eles. Use nomes descritivos para suas variáveis e lembre-se de atualizá-las conforme necessário durante a execução do seu programa.
+
+# Funções 
+
+As funções desempenham um papel fundamental na programação, pois permitem encapsular um conjunto de instruções em um bloco reutilizável. Ao usar funções, você pode dividir seu código em partes menores e mais gerenciáveis, facilitando a compreensão, manutenção e reutilização do mesmo. Além disso, o uso de funções promove a modularidade e a legibilidade do código, tornando-o mais organizado e eficiente.
+
+## Função para Calcular a Média de uma Lista de Números
+
+
+```
+
+  def calcular_media(lista):
+      """Calcula a média dos valores em uma lista."""
+      total = sum(lista)
+      media = total / len(lista)
+      return media
+    
+```
+
+Exemplo de uso:
+    
+```    
+
+  numeros = [2, 4, 6, 8, 10]
+  media = calcular_media(numeros)
+  print("A média dos números é:", media)
+
+```
+
+## Função para Verificar se uma Palavra é Palíndromo
+
+```    
+
+  def verificar_palindromo(palavra):
+    """Verifica se uma palavra é um palíndromo."""
+    palavra_invertida = palavra[::-1]
+    return palavra == palavra_invertida
+
+```
+
+Exemplo de uso:
+
+```
+
+palavra = "radar"
+if verificar_palindromo(palavra):
+    print("A palavra é um palíndromo!")
+else:
+    print("A palavra não é um palíndromo.")
+    
+ ```
+ 
+ ## Função para Converter Graus Celsius para Fahrenheit
+
+```
+
+  def celsius_para_fahrenheit(celsius):
+      """Converte uma temperatura em graus Celsius para Fahrenheit."""
+      fahrenheit = (celsius * 9/5) + 32
+      return fahrenheit
+
+```
+
+Exemplo de uso:
+
+```
+
+  temperatura_celsius = 25
+  temperatura_fahrenheit = celsius_para_fahrenheit(temperatura_celsius)
+  print("A temperatura em Fahrenheit é:", temperatura_fahrenheit)
+
+
+```
+
+Esses são apenas alguns exemplos das funções disponíveis neste repositório. Sinta-se à vontade para explorar os arquivos e descobrir mais funções úteis para seus projetos.
 
 # Operações Aritméticas
 
